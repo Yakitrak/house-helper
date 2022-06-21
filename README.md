@@ -1,6 +1,13 @@
 # house-helper
 
-Quick App to help us find a place with location constraints. Required locations are hard-coded in `contstants` file as its a quick project to help search and see all location constraints in one click.
+Quick App to help us find a place with location constraints. Required locations are not dynamic, corrently stored in `.env` file accessed from `src/constants.ts` as its a quick project to help search.
+
+App opens with a search input where pressing enter will open up 4 tabs:
+
+1. Directions from location to my office
+2. Directions from location to partners office
+3. Nearby Gyms from location
+4. Nearby Shops from location
 
 # Development
 
@@ -20,4 +27,4 @@ Start by `yarn start`
 
 # Publish
 
-Hosted on GH pages. Publish by doing `yarn deploy`
+Hosted on GH pages on [kjainwal.com/house-helper/](https://www.kjainwal.com/house-helper/). Publish by doing `yarn deploy`.

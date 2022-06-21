@@ -1,7 +1,7 @@
 export const locations = {
-  googleMapsUrl: "https://www.google.co.uk/maps",
-  address: {
-    kayWork: encodeURI("UCL, Torrington Place, London"),
-    nettaWork: encodeURI("33 Holborn, London EC1N 2HT"),
-  },
+  kayWork: encodeURI(process.env.REACT_APP_KAY_ADDRESS!),
+  nettaWork: encodeURI(process.env.REACT_APP_NETTA_ADDRESS!),
 };
+
+console.log(process.env);
+export const googleMapsUrl = "https://www.google.co.uk/maps";

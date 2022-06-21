@@ -3,16 +3,12 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import "./App.css";
-import { locations } from "./constants";
+import { locations, googleMapsUrl } from "./constants";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function App() {
-  const {
-    googleMapsUrl,
-    address: { kayWork, nettaWork },
-  } = locations;
-
+  const { kayWork, nettaWork } = locations;
   const [search, setSearch] = React.useState("");
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -64,7 +60,7 @@ function App() {
               placeholder="Search new address..."
               onChange={handleChange}
             />
-            <Button variant="primary" id="search">
+            <Button variant="primary" id="search" type="submit">
               Search
             </Button>
           </InputGroup>
