@@ -23,7 +23,7 @@ Tools:
 - [Google Maps API](https://developers.google.com/maps/documentation/urls/get-started)
 - [Nominatim Open Street Maps](https://nominatim.openstreetmap.org/search/Unter%20den%20Linden%201%20Berlin?format=json&addressdetails=1&limit=1&polygon_svg=1)
 
-Start by `yarn start`
+Start by `yarn` then `yarn start`
 
 # Publish
 
