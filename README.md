@@ -27,4 +27,4 @@ Start by `yarn start`
 
 # Publish
 
-Hosted on GH pages on [kjainwal.com/house-helper/](https://www.kjainwal.com/house-helper/). Publish by doing `yarn deploy`.
+Hosted on GH pages on [kjainwal.com/house-helper](https://www.kjainwal.com/house-helper/). Publish by doing `yarn deploy`.
