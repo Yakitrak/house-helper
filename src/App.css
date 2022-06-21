@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  background: #dfe6e9;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: max-content;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: rgb(13, 110, 253);
+}
