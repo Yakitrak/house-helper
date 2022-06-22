@@ -8,7 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function App() {
-  const { kayWork, nettaWork } = locations;
+  const { kayWork, nettaWork, aadarWork } = locations;
   const [search, setSearch] = React.useState("");
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -38,6 +38,7 @@ function App() {
     const urls = [
       `${googleMapsUrl}/dir/?api=1&origin=${search}&destination=${kayWork}&travelmode=transit`,
       `${googleMapsUrl}/dir/?api=1&origin=${search}&destination=${nettaWork}&travelmode=transit`,
+      `${googleMapsUrl}/dir/?api=1&origin=${search}&destination=${aadarWork}&travelmode=transit`,
       `${googleMapsUrl}/search/gym/@${lat},${lon},17z`,
       `${googleMapsUrl}/search/shops/@${lat},${lon},17z`,
     ];
